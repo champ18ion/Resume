@@ -6,7 +6,7 @@ import Widgets from './Components/Widgets';
 
 
 
-export const OptionBasic = () => {
+export const Dashboard = () => {
   return (
     <div className="main-container">
       <div className="overlap-wrapper">
@@ -104,94 +104,11 @@ export const OptionBasic = () => {
           <div className="widget-4">
             <div className="chart">
               <div className="overlap-15">
-                <div className="dotted-lines">
-                  <img className="line-5" alt="Line" src="https://c.animaapp.com/tJhVFtiO/img/line-5.svg" />
-                  <img className="line-6" alt="Line" src="https://c.animaapp.com/tJhVFtiO/img/line-5.svg" />
-                  <img className="line-7" alt="Line" src="https://c.animaapp.com/tJhVFtiO/img/line-5.svg" />
-                  <img className="line-8" alt="Line" src="https://c.animaapp.com/tJhVFtiO/img/line-5.svg" />
-                  <img className="line-9" alt="Line" src="https://c.animaapp.com/tJhVFtiO/img/line-5.svg" />
-                  <img className="line-10" alt="Line" src="https://c.animaapp.com/tJhVFtiO/img/line-5.svg" />
-                </div>
-                <div className="columns">
-                  <div className="element-column">
-                    <div className="overlap-group-12">
-                      <img
-                        className="rectangle-7"
-                        alt="Rectangle"
-                        src="https://c.animaapp.com/tJhVFtiO/img/rectangle-169-5.svg"
-                      />
-                      <div className="rectangle-8" />
-                    </div>
-                  </div>
-                  <div className="element-column-2">
-                    <div className="overlap-16">
-                      <img
-                        className="rectangle-9"
-                        alt="Rectangle"
-                        src="https://c.animaapp.com/tJhVFtiO/img/rectangle-169-4.svg"
-                      />
-                      <div className="rectangle-10" />
-                    </div>
-                  </div>
-                  <div className="element-column-3">
-                    <div className="overlap-17">
-                      <img
-                        className="rectangle-11"
-                        alt="Rectangle"
-                        src="https://c.animaapp.com/tJhVFtiO/img/rectangle-169-3.svg"
-                      />
-                      <div className="rectangle-12" />
-                    </div>
-                  </div>
-                  <div className="element-column-4">
-                    <div className="overlap-18">
-                      <img
-                        className="rectangle-13"
-                        alt="Rectangle"
-                        src="https://c.animaapp.com/tJhVFtiO/img/rectangle-169-2.svg"
-                      />
-                      <div className="rectangle-14" />
-                    </div>
-                  </div>
-                  <div className="element-column-5">
-                    <div className="overlap-19">
-                      <img
-                        className="rectangle-15"
-                        alt="Rectangle"
-                        src="https://c.animaapp.com/tJhVFtiO/img/rectangle-169-1.svg"
-                      />
-                      <div className="rectangle-16" />
-                    </div>
-                  </div>
-                  <div className="element-column-6">
-                    <div className="overlap-20">
-                      <img
-                        className="rectangle-17"
-                        alt="Rectangle"
-                        src="https://c.animaapp.com/tJhVFtiO/img/rectangle-169.svg"
-                      />
-                      <div className="rectangle-18" />
-                    </div>
-                  </div>
+              <img src="images/Chart.png" alt="" /> 
+                <div className="columns">  
                 </div>
               </div>
-              <div className="x-axis">
-                <div className="text-wrapper-37">1 Aug</div>
-                <div className="text-wrapper-38">8 Aug</div>
-                <div className="text-wrapper-39">151 Aug</div>
-                <div className="text-wrapper-40">22 Aug</div>
-                <div className="text-wrapper-41">29 Aug</div>
-                <div className="text-wrapper-42">5 Sep</div>
-              </div>
-              <div className="y-axis">
-                <div className="text-wrapper-43">150</div>
-                <div className="text-wrapper-44">120</div>
-                <div className="text-wrapper-45">90</div>
-                <div className="text-wrapper-46">60</div>
-                <div className="text-wrapper-47">30</div>
-                <div className="text-wrapper-48">0</div>
-              </div>
-            </div>
+            </div> 
             <div className="top-2">
               <div className="tabs-3">
                 <div className="overlap-group-13">
@@ -214,7 +131,7 @@ export const OptionBasic = () => {
 const page = () => {
   return (
     <div>
-      <OptionBasic/>
+      <Dashboard/>
     </div>
   )
 }
