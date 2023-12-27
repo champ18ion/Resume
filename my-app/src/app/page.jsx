@@ -5,7 +5,7 @@ import './globals.css'
 
 export const OptionBasic = () => {
   return (
-    <div className="option-basic">
+    <div className="main-container">
       <div className="overlap-wrapper">
         <div className="overlap">
           <div className="default-toggle">

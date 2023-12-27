@@ -27,7 +27,7 @@ body {
 }
 
 
-.option-basic {
+.main-container {
   background-color: #eef0f7;
   display: flex;
   flex-direction: row;
@@ -35,18 +35,18 @@ body {
   width: 100%;
 }
 
-.option-basic .overlap-wrapper {
+.main-container .overlap-wrapper {
   background-color: #eef0f7;
   height: 1805px;
   width: 1807px;
 }
 
-.option-basic .overlap {
+.main-container .overlap {
   height: 1805px;
   position: relative;
 }
 
-.option-basic .default-toggle {
+.main-container .default-toggle {
   height: 1805px;
   left: 0;
   position: absolute;
@@ -54,7 +54,7 @@ body {
   width: 1807px;
 }
 
-.option-basic .widgets {
+.main-container .widgets {
   height: 867px;
   left: 400px;
   position: absolute;
@@ -62,7 +62,7 @@ body {
   width: 1321px;
 }
 
-.option-basic .widget {
+.main-container .widget {
   background-color: #ffffff;
   border-radius: 12px;
   height: 495px;
@@ -73,7 +73,7 @@ body {
   width: 1320px;
 }
 
-.option-basic .col {
+.main-container .col {
   height: 352px;
   left: 1174px;
   position: absolute;
@@ -81,7 +81,7 @@ body {
   width: 116px;
 }
 
-.option-basic .row {
+.main-container .row {
   height: 32px;
   left: 0;
   position: absolute;
@@ -89,7 +89,7 @@ body {
   width: 116px;
 }
 
-.option-basic .button-trash {
+.main-container .button-trash {
   background-color: #f3f6f9;
   border-radius: 6px;
   height: 32px;
@@ -99,7 +99,7 @@ body {
   width: 32px;
 }
 
-.option-basic .div {
+.main-container .div {
   height: 18px;
   left: 7px;
   position: relative;
@@ -107,7 +107,7 @@ body {
   width: 18px;
 }
 
-.option-basic .round {
+.main-container .round {
   height: 10px;
   left: 4px;
   position: absolute;
@@ -115,7 +115,7 @@ body {
   width: 9px;
 }
 
-.option-basic .shape {
+.main-container .shape {
   height: 2px;
   left: 4px;
   position: absolute;
@@ -123,7 +123,7 @@ body {
   width: 10px;
 }
 
-.option-basic .button-edit {
+.main-container .button-edit {
   background-color: #f3f6f9;
   border-radius: 6px;
   height: 32px;
@@ -133,7 +133,7 @@ body {
   width: 32px;
 }
 
-.option-basic .write {
+.main-container .write {
   height: 16px;
   left: 8px;
   position: relative;
@@ -141,7 +141,7 @@ body {
   width: 16px;
 }
 
-.option-basic .overlap-group {
+.main-container .overlap-group {
   height: 13px;
   left: 1px;
   position: relative;
@@ -149,7 +149,7 @@ body {
   width: 13px;
 }
 
-.option-basic .path {
+.main-container .path {
   height: 9px;
   left: 4px;
   position: absolute;
@@ -157,7 +157,7 @@ body {
   width: 9px;
 }
 
-.option-basic .img {
+.main-container .img {
   height: 13px;
   left: 0;
   position: absolute;
@@ -165,7 +165,7 @@ body {
   width: 13px;
 }
 
-.option-basic .button-settings {
+.main-container .button-settings {
   background-color: #f3f6f9;
   border-radius: 6px;
   height: 32px;
@@ -175,7 +175,7 @@ body {
   width: 32px;
 }
 
-.option-basic .combined-shape {
+.main-container .combined-shape {
   height: 6px;
   left: 2px;
   position: absolute;
@@ -183,7 +183,7 @@ body {
   width: 14px;
 }
 
-.option-basic .combined-shape-2 {
+.main-container .combined-shape-2 {
   height: 6px;
   left: 2px;
   position: absolute;
@@ -191,7 +191,7 @@ body {
   width: 14px;
 }
 
-.option-basic .row-2 {
+.main-container .row-2 {
   height: 32px;
   left: 0;
   position: absolute;
@@ -199,7 +199,7 @@ body {
   width: 116px;
 }
 
-.option-basic .row-3 {
+.main-container .row-3 {
   height: 32px;
   left: 0;
   position: absolute;
@@ -207,7 +207,7 @@ body {
   width: 116px;
 }
 
-.option-basic .row-4 {
+.main-container .row-4 {
   height: 32px;
   left: 0;
   position: absolute;
@@ -215,7 +215,7 @@ body {
   width: 116px;
 }
 
-.option-basic .row-5 {
+.main-container .row-5 {
   height: 32px;
   left: 0;
   position: absolute;
@@ -223,7 +223,7 @@ body {
   width: 116px;
 }
 
-.option-basic .col-2 {
+.main-container .col-2 {
   height: 346px;
   left: 1035px;
   position: absolute;
@@ -231,7 +231,7 @@ body {
   width: 81px;
 }
 
-.option-basic .button {
+.main-container .button {
   all: unset;
   box-sizing: border-box;
   height: 26px;
@@ -241,7 +241,7 @@ body {
   width: 83px;
 }
 
-.option-basic .div-wrapper {
+.main-container .div-wrapper {
   background-color: #fff4de;
   border-radius: 6px;
   height: 26px;
@@ -249,7 +249,7 @@ body {
   width: 81px;
 }
 
-.option-basic .text-wrapper {
+.main-container .text-wrapper {
   color: #ffa800;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 11px;
@@ -262,7 +262,7 @@ body {
   width: 64px;
 }
 
-.option-basic .overlap-group-wrapper {
+.main-container .overlap-group-wrapper {
   all: unset;
   box-sizing: border-box;
   height: 26px;
@@ -272,7 +272,7 @@ body {
   width: 69px;
 }
 
-.option-basic .overlap-2 {
+.main-container .overlap-2 {
   background-color: #ffe2e5;
   border-radius: 6px;
   height: 26px;
@@ -280,7 +280,7 @@ body {
   width: 67px;
 }
 
-.option-basic .text-wrapper-2 {
+.main-container .text-wrapper-2 {
   color: #f64e60;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 11px;
@@ -293,7 +293,7 @@ body {
   width: 55px;
 }
 
-.option-basic .button-2 {
+.main-container .button-2 {
   all: unset;
   box-sizing: border-box;
   height: 26px;
@@ -303,7 +303,7 @@ body {
   width: 67px;
 }
 
-.option-basic .overlap-3 {
+.main-container .overlap-3 {
   background-color: #c9f7f5;
   border-radius: 6px;
   height: 26px;
@@ -311,7 +311,7 @@ body {
   width: 65px;
 }
 
-.option-basic .text-wrapper-3 {
+.main-container .text-wrapper-3 {
   color: #1bc5bd;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 11px;
@@ -324,7 +324,7 @@ body {
   width: 55px;
 }
 
-.option-basic .button-3 {
+.main-container .button-3 {
   all: unset;
   box-sizing: border-box;
   height: 26px;
@@ -334,7 +334,7 @@ body {
   width: 82px;
 }
 
-.option-basic .overlap-4 {
+.main-container .overlap-4 {
   background-color: #fff4de;
   border-radius: 6px;
   height: 26px;
@@ -342,7 +342,7 @@ body {
   width: 80px;
 }
 
-.option-basic .text-wrapper-4 {
+.main-container .text-wrapper-4 {
   color: #ffa800;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 11px;
@@ -355,7 +355,7 @@ body {
   width: 64px;
 }
 
-.option-basic .button-4 {
+.main-container .button-4 {
   all: unset;
   box-sizing: border-box;
   height: 26px;
@@ -365,7 +365,7 @@ body {
   width: 76px;
 }
 
-.option-basic .overlap-5 {
+.main-container .overlap-5 {
   background-color: #eee5ff;
   border-radius: 6px;
   height: 26px;
@@ -373,7 +373,7 @@ body {
   width: 74px;
 }
 
-.option-basic .text-wrapper-5 {
+.main-container .text-wrapper-5 {
   color: #8950fc;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 11px;
@@ -386,7 +386,7 @@ body {
   width: 55px;
 }
 
-.option-basic .col-3 {
+.main-container .col-3 {
   height: 354px;
   left: 845px;
   position: absolute;
@@ -394,7 +394,7 @@ body {
   width: 131px;
 }
 
-.option-basic .item {
+.main-container .item {
   height: 44px;
   left: 0;
   position: absolute;
@@ -402,7 +402,7 @@ body {
   width: 135px;
 }
 
-.option-basic .text-wrapper-6 {
+.main-container .text-wrapper-6 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 13px;
@@ -415,7 +415,7 @@ body {
   top: 24px;
 }
 
-.option-basic .text-wrapper-7 {
+.main-container .text-wrapper-7 {
   color: #464e5f;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 14px;
@@ -429,7 +429,7 @@ body {
   width: 131px;
 }
 
-.option-basic .item-2 {
+.main-container .item-2 {
   height: 44px;
   left: 0;
   position: absolute;
@@ -437,7 +437,7 @@ body {
   width: 135px;
 }
 
-.option-basic .item-3 {
+.main-container .item-3 {
   height: 44px;
   left: 0;
   position: absolute;
@@ -445,7 +445,7 @@ body {
   width: 135px;
 }
 
-.option-basic .item-4 {
+.main-container .item-4 {
   height: 44px;
   left: 0;
   position: absolute;
@@ -453,7 +453,7 @@ body {
   width: 135px;
 }
 
-.option-basic .item-5 {
+.main-container .item-5 {
   height: 44px;
   left: 0;
   position: absolute;
@@ -461,7 +461,7 @@ body {
   width: 135px;
 }
 
-.option-basic .col-4 {
+.main-container .col-4 {
   height: 370px;
   left: 30px;
   position: absolute;
@@ -469,7 +469,7 @@ body {
   width: 435px;
 }
 
-.option-basic .item-6 {
+.main-container .item-6 {
   height: 50px;
   left: 0;
   position: absolute;
@@ -477,7 +477,7 @@ body {
   width: 286px;
 }
 
-.option-basic .FTP-bprow-bnc-cc {
+.main-container .FTP-bprow-bnc-cc {
   color: transparent;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 13px;
@@ -489,18 +489,18 @@ body {
   top: 28px;
 }
 
-.option-basic .span {
+.main-container .span {
   color: #464e5f;
   font-weight: 600;
 }
 
-.option-basic .text-wrapper-8 {
+.main-container .text-wrapper-8 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-weight: 500;
 }
 
-.option-basic .text-wrapper-9 {
+.main-container .text-wrapper-9 {
   color: #464e5f;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 14px;
@@ -513,7 +513,7 @@ body {
   width: 217px;
 }
 
-.option-basic .img-wrapper {
+.main-container .img-wrapper {
   background-color: #f3f6f9;
   border-radius: 6px;
   height: 50px;
@@ -523,7 +523,7 @@ body {
   width: 50px;
 }
 
-.option-basic .img-2 {
+.main-container .img-2 {
   height: 29px;
   left: 11px;
   position: absolute;
@@ -531,7 +531,7 @@ body {
   width: 29px;
 }
 
-.option-basic .item-7 {
+.main-container .item-7 {
   height: 50px;
   left: 0;
   position: absolute;
@@ -539,7 +539,7 @@ body {
   width: 390px;
 }
 
-.option-basic .text-wrapper-10 {
+.main-container .text-wrapper-10 {
   color: #464e5f;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 14px;
@@ -552,7 +552,7 @@ body {
   width: 321px;
 }
 
-.option-basic .item-8 {
+.main-container .item-8 {
   height: 50px;
   left: 0;
   position: absolute;
@@ -560,7 +560,7 @@ body {
   width: 439px;
 }
 
-.option-basic .text-wrapper-11 {
+.main-container .text-wrapper-11 {
   color: #464e5f;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 14px;
@@ -573,7 +573,7 @@ body {
   width: 370px;
 }
 
-.option-basic .item-9 {
+.main-container .item-9 {
   height: 50px;
   left: 0;
   position: absolute;
@@ -581,7 +581,7 @@ body {
   width: 390px;
 }
 
-.option-basic .img-3 {
+.main-container .img-3 {
   height: 28px;
   left: 11px;
   position: absolute;
@@ -589,7 +589,7 @@ body {
   width: 28px;
 }
 
-.option-basic .item-10 {
+.main-container .item-10 {
   height: 50px;
   left: 0;
   position: absolute;
@@ -597,7 +597,7 @@ body {
   width: 358px;
 }
 
-.option-basic .text-wrapper-12 {
+.main-container .text-wrapper-12 {
   color: #464e5f;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 14px;
@@ -610,7 +610,7 @@ body {
   width: 289px;
 }
 
-.option-basic .head {
+.main-container .head {
   height: 50px;
   left: 29px;
   position: absolute;
@@ -618,7 +618,7 @@ body {
   width: 1265px;
 }
 
-.option-basic .tabs {
+.main-container .tabs {
   height: 34px;
   left: 1091px;
   position: absolute;
@@ -626,7 +626,7 @@ body {
   width: 176px;
 }
 
-.option-basic .overlap-group-2 {
+.main-container .overlap-group-2 {
   background-color: #464e5f;
   border-radius: 6px;
   height: 34px;
@@ -636,7 +636,7 @@ body {
   width: 53px;
 }
 
-.option-basic .text-wrapper-13 {
+.main-container .text-wrapper-13 {
   color: #ffffff;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 12px;
@@ -648,7 +648,7 @@ body {
   top: 8px;
 }
 
-.option-basic .text-wrapper-14 {
+.main-container .text-wrapper-14 {
   color: #b5b5c3;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 12px;
@@ -660,7 +660,7 @@ body {
   top: 8px;
 }
 
-.option-basic .text-wrapper-15 {
+.main-container .text-wrapper-15 {
   color: #b5b5c3;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 12px;
@@ -672,7 +672,7 @@ body {
   top: 8px;
 }
 
-.option-basic .text-wrapper-16 {
+.main-container .text-wrapper-16 {
   color: #212121;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 18px;
@@ -686,7 +686,7 @@ body {
   width: 115px;
 }
 
-.option-basic .p {
+.main-container .p {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -699,7 +699,7 @@ body {
   white-space: nowrap;
 }
 
-.option-basic .widget-2 {
+.main-container .widget-2 {
   background-color: #ffffff;
   border-radius: 12px;
   height: 343px;
@@ -710,7 +710,7 @@ body {
   width: 670px;
 }
 
-.option-basic .item-11 {
+.main-container .item-11 {
   height: 41px;
   left: 30px;
   position: absolute;
@@ -718,7 +718,7 @@ body {
   width: 212px;
 }
 
-.option-basic .text-wrapper-17 {
+.main-container .text-wrapper-17 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -730,7 +730,7 @@ body {
   top: 21px;
 }
 
-.option-basic .text-wrapper-18 {
+.main-container .text-wrapper-18 {
   color: #000000;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 13px;
@@ -742,7 +742,7 @@ body {
   top: 0;
 }
 
-.option-basic .icon {
+.main-container .icon {
   background-color: #e1e9ff;
   border-radius: 12px;
   height: 40px;
@@ -752,7 +752,7 @@ body {
   width: 40px;
 }
 
-.option-basic .shield-check {
+.main-container .shield-check {
   height: 22px;
   left: 9px;
   position: relative;
@@ -760,7 +760,7 @@ body {
   width: 22px;
 }
 
-.option-basic .check-path-wrapper {
+.main-container .check-path-wrapper {
   background-image: url();
   background-size: 100% 100%;
   height: 19px;
@@ -770,7 +770,7 @@ body {
   width: 15px;
 }
 
-.option-basic .check-path {
+.main-container .check-path {
   height: 5px;
   left: 4px;
   position: absolute;
@@ -778,7 +778,7 @@ body {
   width: 7px;
 }
 
-.option-basic .item-12 {
+.main-container .item-12 {
   height: 41px;
   left: 30px;
   position: absolute;
@@ -786,7 +786,7 @@ body {
   width: 212px;
 }
 
-.option-basic .attachment-wrapper {
+.main-container .attachment-wrapper {
   background-color: #ffe2e5;
   border-radius: 12px;
   height: 40px;
@@ -796,7 +796,7 @@ body {
   width: 40px;
 }
 
-.option-basic .div-2 {
+.main-container .div-2 {
   height: 20px;
   left: 10px;
   position: relative;
@@ -804,7 +804,7 @@ body {
   width: 20px;
 }
 
-.option-basic .overlap-6 {
+.main-container .overlap-6 {
   height: 17px;
   left: 1px;
   position: relative;
@@ -812,7 +812,7 @@ body {
   width: 17px;
 }
 
-.option-basic .overlap-group-3 {
+.main-container .overlap-group-3 {
   height: 15px;
   left: 1px;
   position: absolute;
@@ -820,7 +820,7 @@ body {
   width: 15px;
 }
 
-.option-basic .combined-shape-3 {
+.main-container .combined-shape-3 {
   height: 8px;
   left: 0;
   position: absolute;
@@ -828,7 +828,7 @@ body {
   width: 8px;
 }
 
-.option-basic .combined-shape-copy {
+.main-container .combined-shape-copy {
   height: 8px;
   left: 7px;
   position: absolute;
@@ -836,7 +836,7 @@ body {
   width: 8px;
 }
 
-.option-basic .combined-shape-4 {
+.main-container .combined-shape-4 {
   height: 7px;
   left: 0;
   position: absolute;
@@ -844,7 +844,7 @@ body {
   width: 7px;
 }
 
-.option-basic .combined-shape-copy-2 {
+.main-container .combined-shape-copy-2 {
   height: 7px;
   left: 10px;
   position: absolute;
@@ -852,7 +852,7 @@ body {
   width: 7px;
 }
 
-.option-basic .item-13 {
+.main-container .item-13 {
   height: 41px;
   left: 30px;
   position: absolute;
@@ -860,7 +860,7 @@ body {
   width: 212px;
 }
 
-.option-basic .group-chat-wrapper {
+.main-container .group-chat-wrapper {
   background-color: #c9f7f5;
   border-radius: 12px;
   height: 40px;
@@ -870,7 +870,7 @@ body {
   width: 40px;
 }
 
-.option-basic .overlap-group-4 {
+.main-container .overlap-group-4 {
   height: 15px;
   left: 2px;
   position: relative;
@@ -878,7 +878,7 @@ body {
   width: 18px;
 }
 
-.option-basic .combined-shape-5 {
+.main-container .combined-shape-5 {
   height: 13px;
   left: 3px;
   position: absolute;
@@ -886,7 +886,7 @@ body {
   width: 14px;
 }
 
-.option-basic .combined-shape-6 {
+.main-container .combined-shape-6 {
   height: 8px;
   left: 0;
   position: absolute;
@@ -894,7 +894,7 @@ body {
   width: 10px;
 }
 
-.option-basic .item-14 {
+.main-container .item-14 {
   height: 41px;
   left: 30px;
   position: absolute;
@@ -902,7 +902,7 @@ body {
   width: 212px;
 }
 
-.option-basic .mic-wrapper {
+.main-container .mic-wrapper {
   background-color: #fff4de;
   border-radius: 12px;
   height: 40px;
@@ -912,7 +912,7 @@ body {
   width: 40px;
 }
 
-.option-basic .overlap-group-5 {
+.main-container .overlap-group-5 {
   height: 17px;
   left: 4px;
   position: relative;
@@ -920,7 +920,7 @@ body {
   width: 12px;
 }
 
-.option-basic .combined-shape-7 {
+.main-container .combined-shape-7 {
   height: 9px;
   left: 0;
   position: absolute;
@@ -928,7 +928,7 @@ body {
   width: 12px;
 }
 
-.option-basic .rectangle {
+.main-container .rectangle {
   background-color: #ffa800;
   border-radius: 3.5px;
   height: 10px;
@@ -939,7 +939,7 @@ body {
   width: 5px;
 }
 
-.option-basic .item-15 {
+.main-container .item-15 {
   height: 41px;
   left: 30px;
   position: absolute;
@@ -947,7 +947,7 @@ body {
   width: 212px;
 }
 
-.option-basic .library-wrapper {
+.main-container .library-wrapper {
   background-color: #eee5ff;
   border-radius: 12px;
   height: 40px;
@@ -957,7 +957,7 @@ body {
   width: 40px;
 }
 
-.option-basic .combined-shape-8 {
+.main-container .combined-shape-8 {
   height: 15px;
   left: 3px;
   position: absolute;
@@ -965,7 +965,7 @@ body {
   width: 7px;
 }
 
-.option-basic .rectangle-copy {
+.main-container .rectangle-copy {
   background-color: #8950fc;
   border-radius: 1px;
   height: 15px;
@@ -977,7 +977,7 @@ body {
   width: 2px;
 }
 
-.option-basic .head-2 {
+.main-container .head-2 {
   height: 26px;
   left: 29px;
   position: absolute;
@@ -985,7 +985,7 @@ body {
   width: 612px;
 }
 
-.option-basic .dots {
+.main-container .dots {
   height: 6px;
   left: 593px;
   position: absolute;
@@ -993,7 +993,7 @@ body {
   width: 17px;
 }
 
-.option-basic .rectangle-2 {
+.main-container .rectangle-2 {
   background-color: #b5b5c3;
   border-radius: 2px;
   height: 6px;
@@ -1003,7 +1003,7 @@ body {
   width: 6px;
 }
 
-.option-basic .rectangle-3 {
+.main-container .rectangle-3 {
   background-color: #b5b5c3b2;
   border-radius: 2px;
   height: 6px;
@@ -1013,7 +1013,7 @@ body {
   width: 6px;
 }
 
-.option-basic .text-wrapper-19 {
+.main-container .text-wrapper-19 {
   color: #212121;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 17px;
@@ -1025,7 +1025,7 @@ body {
   top: 0;
 }
 
-.option-basic .widget-3 {
+.main-container .widget-3 {
   background-color: #ffffff;
   border-radius: 12px;
   height: 342px;
@@ -1035,12 +1035,12 @@ body {
   width: 628px;
 }
 
-.option-basic .overlap-7 {
+.main-container .overlap-7 {
   height: 342px;
   position: relative;
 }
 
-.option-basic .background {
+.main-container .background {
   background-color: #ffffff;
   border-radius: 12px;
   height: 341px;
@@ -1050,7 +1050,7 @@ body {
   width: 628px;
 }
 
-.option-basic .top {
+.main-container .top {
   background-color: #f64e60;
   border-radius: 12px;
   height: 242px;
@@ -1061,7 +1061,7 @@ body {
   width: 628px;
 }
 
-.option-basic .vector-wrapper {
+.main-container .vector-wrapper {
   background-image: url();
   background-position: 50% 50%;
   background-size: cover;
@@ -1072,7 +1072,7 @@ body {
   width: 628px;
 }
 
-.option-basic .vector {
+.main-container .vector {
   height: 69px;
   left: 0;
   object-fit: cover;
@@ -1081,7 +1081,7 @@ body {
   width: 628px;
 }
 
-.option-basic .export-button {
+.main-container .export-button {
   all: unset;
   box-sizing: border-box;
   height: 30px;
@@ -1091,14 +1091,14 @@ body {
   width: 87px;
 }
 
-.option-basic .overlap-group-6 {
+.main-container .overlap-group-6 {
   border-radius: 6px;
   height: 30px;
   position: relative;
   width: 85px;
 }
 
-.option-basic .button-5 {
+.main-container .button-5 {
   background-color: #ffffff;
   border-radius: 6px;
   height: 30px;
@@ -1109,7 +1109,7 @@ body {
   width: 85px;
 }
 
-.option-basic .text-wrapper-20 {
+.main-container .text-wrapper-20 {
   color: #ffffff;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 11px;
@@ -1123,7 +1123,7 @@ body {
   width: 36px;
 }
 
-.option-basic .arrow {
+.main-container .arrow {
   height: 4px;
   left: 62px;
   position: absolute;
@@ -1131,7 +1131,7 @@ body {
   width: 8px;
 }
 
-.option-basic .text-wrapper-21 {
+.main-container .text-wrapper-21 {
   color: #ffffff;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 17px;
@@ -1145,7 +1145,7 @@ body {
   width: 119px;
 }
 
-.option-basic .sidebar {
+.main-container .sidebar {
   background-color: #1e1e2d;
   height: 1805px;
   left: 0;
@@ -1155,14 +1155,14 @@ body {
   width: 319px;
 }
 
-.option-basic .overlap-8 {
+.main-container .overlap-8 {
   height: 1805px;
   left: -2px;
   position: relative;
   width: 321px;
 }
 
-.option-basic .background-rectangle {
+.main-container .background-rectangle {
   background-color: #1e1e2d;
   height: 1805px;
   left: 2px;
@@ -1171,7 +1171,7 @@ body {
   width: 319px;
 }
 
-.option-basic .highlighted {
+.main-container .highlighted {
   background-color: #1b1b28;
   height: 53px;
   left: 0;
@@ -1180,7 +1180,7 @@ body {
   width: 319px;
 }
 
-.option-basic .top-part {
+.main-container .top-part {
   background-color: #1b1b28;
   height: 78px;
   left: 2px;
@@ -1189,7 +1189,7 @@ body {
   width: 319px;
 }
 
-.option-basic .arrow-double-left {
+.main-container .arrow-double-left {
   height: 29px;
   left: 260px;
   position: absolute;
@@ -1197,7 +1197,7 @@ body {
   width: 29px;
 }
 
-.option-basic .icons-bright {
+.main-container .icons-bright {
   height: 156px;
   left: 27px;
   position: absolute;
@@ -1205,7 +1205,7 @@ body {
   width: 30px;
 }
 
-.option-basic .layers {
+.main-container .layers {
   height: 30px;
   left: 0;
   position: absolute;
@@ -1213,7 +1213,7 @@ body {
   width: 30px;
 }
 
-.option-basic .layout-blocks {
+.main-container .layout-blocks {
   height: 29px;
   left: 0;
   position: absolute;
@@ -1221,7 +1221,7 @@ body {
   width: 29px;
 }
 
-.option-basic .overlap-group-7 {
+.main-container .overlap-group-7 {
   height: 19px;
   left: 5px;
   position: relative;
@@ -1229,7 +1229,7 @@ body {
   width: 19px;
 }
 
-.option-basic .rectangle-4 {
+.main-container .rectangle-4 {
   background-color: #6993ff;
   border-radius: 1.5px;
   height: 8px;
@@ -1239,7 +1239,7 @@ body {
   width: 8px;
 }
 
-.option-basic .combined-shape-9 {
+.main-container .combined-shape-9 {
   height: 19px;
   left: 0;
   position: absolute;
@@ -1247,7 +1247,7 @@ body {
   width: 19px;
 }
 
-.option-basic .headings {
+.main-container .headings {
   height: 22px;
   left: 31px;
   position: absolute;
@@ -1255,7 +1255,7 @@ body {
   width: 63px;
 }
 
-.option-basic .text-wrapper-22 {
+.main-container .text-wrapper-22 {
   color: #4a4b68;
   font-family: "Poppins-Regular", Helvetica;
   font-size: 12px;
@@ -1268,7 +1268,7 @@ body {
   width: 61px;
 }
 
-.option-basic .subheadings {
+.main-container .subheadings {
   height: 166px;
   left: 66px;
   position: absolute;
@@ -1276,7 +1276,7 @@ body {
   width: 75px;
 }
 
-.option-basic .text-wrapper-23 {
+.main-container .text-wrapper-23 {
   color: #888c9f;
   font-family: "Poppins-Regular", Helvetica;
   font-size: 12px;
@@ -1289,7 +1289,7 @@ body {
   width: 40px;
 }
 
-.option-basic .text-wrapper-24 {
+.main-container .text-wrapper-24 {
   color: #888c9f;
   font-family: "Poppins-Regular", Helvetica;
   font-size: 12px;
@@ -1302,7 +1302,7 @@ body {
   width: 67px;
 }
 
-.option-basic .text-wrapper-25 {
+.main-container .text-wrapper-25 {
   color: #888c9f;
   font-family: "Poppins-Regular", Helvetica;
   font-size: 12px;
@@ -1315,7 +1315,7 @@ body {
   width: 36px;
 }
 
-.option-basic .text-wrapper-26 {
+.main-container .text-wrapper-26 {
   color: #888c9f;
   font-family: "Poppins-Regular", Helvetica;
   font-size: 12px;
@@ -1328,7 +1328,7 @@ body {
   width: 45px;
 }
 
-.option-basic .subheadings-active {
+.main-container .subheadings-active {
   height: 265px;
   left: 32px;
   position: absolute;
@@ -1336,7 +1336,7 @@ body {
   width: 225px;
 }
 
-.option-basic .text-wrapper-27 {
+.main-container .text-wrapper-27 {
   color: #ffffff;
   font-family: "Poppins-Regular", Helvetica;
   font-size: 13px;
@@ -1349,7 +1349,7 @@ body {
   width: 88px;
 }
 
-.option-basic .dashboard {
+.main-container .dashboard {
   color: #ffffff;
   font-family: "Poppins-ExtraBold", Helvetica;
   font-size: 30px;
@@ -1362,7 +1362,7 @@ body {
   width: 219px;
 }
 
-.option-basic .text-wrapper-28 {
+.main-container .text-wrapper-28 {
   color: #ffffff;
   font-family: "Poppins-Regular", Helvetica;
   font-size: 13px;
@@ -1375,7 +1375,7 @@ body {
   width: 98px;
 }
 
-.option-basic .strokes {
+.main-container .strokes {
   height: 96px;
   left: 49px;
   position: absolute;
@@ -1383,7 +1383,7 @@ body {
   width: 6px;
 }
 
-.option-basic .line {
+.main-container .line {
   height: 1px;
   left: 0;
   object-fit: cover;
@@ -1392,7 +1392,7 @@ body {
   width: 6px;
 }
 
-.option-basic .line-2 {
+.main-container .line-2 {
   height: 1px;
   left: 0;
   object-fit: cover;
@@ -1401,7 +1401,7 @@ body {
   width: 6px;
 }
 
-.option-basic .line-3 {
+.main-container .line-3 {
   height: 1px;
   left: 0;
   object-fit: cover;
@@ -1410,7 +1410,7 @@ body {
   width: 6px;
 }
 
-.option-basic .icons-faded {
+.main-container .icons-faded {
   height: 386px;
   left: 26px;
   position: absolute;
@@ -1418,7 +1418,7 @@ body {
   width: 29px;
 }
 
-.option-basic .box {
+.main-container .box {
   height: 29px;
   left: 0;
   position: absolute;
@@ -1426,7 +1426,7 @@ body {
   width: 29px;
 }
 
-.option-basic .overlap-group-wrapper-2 {
+.main-container .overlap-group-wrapper-2 {
   height: 29px;
   left: 0;
   position: absolute;
@@ -1434,7 +1434,7 @@ body {
   width: 29px;
 }
 
-.option-basic .rectangle-5 {
+.main-container .rectangle-5 {
   background-color: #4a4b68;
   height: 19px;
   left: 0;
@@ -1444,7 +1444,7 @@ body {
   width: 10px;
 }
 
-.option-basic .arrows {
+.main-container .arrows {
   height: 201px;
   left: 277px;
   position: absolute;
@@ -1452,7 +1452,7 @@ body {
   width: 11px;
 }
 
-.option-basic .sunheader {
+.main-container .sunheader {
   background-color: #ffffff;
   height: 65px;
   left: 319px;
@@ -1461,14 +1461,14 @@ body {
   width: 1488px;
 }
 
-.option-basic .overlap-9 {
+.main-container .overlap-9 {
   background-color: #ffffff;
   box-shadow: 0px 5px 40px #0000000d;
   height: 65px;
   position: relative;
 }
 
-.option-basic .left {
+.main-container .left {
   height: 39px;
   left: 36px;
   position: absolute;
@@ -1476,7 +1476,7 @@ body {
   width: 270px;
 }
 
-.option-basic .text-wrapper-29 {
+.main-container .text-wrapper-29 {
   color: #434349;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 13px;
@@ -1489,7 +1489,7 @@ body {
   width: 89px;
 }
 
-.option-basic .add-new-button {
+.main-container .add-new-button {
   height: 39px;
   left: 173px;
   position: absolute;
@@ -1497,7 +1497,7 @@ body {
   width: 97px;
 }
 
-.option-basic .overlap-group-8 {
+.main-container .overlap-group-8 {
   background-color: #fff4de;
   border-radius: 4px;
   height: 39px;
@@ -1505,7 +1505,7 @@ body {
   width: 95px;
 }
 
-.option-basic .text-wrapper-30 {
+.main-container .text-wrapper-30 {
   color: #ffa800;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 13px;
@@ -1518,7 +1518,7 @@ body {
   width: 71px;
 }
 
-.option-basic .line-4 {
+.main-container .line-4 {
   height: 26px;
   left: 124px;
   object-fit: cover;
@@ -1527,7 +1527,7 @@ body {
   width: 1px;
 }
 
-.option-basic .right {
+.main-container .right {
   height: 39px;
   left: 1035px;
   position: absolute;
@@ -1535,7 +1535,7 @@ body {
   width: 423px;
 }
 
-.option-basic .today {
+.main-container .today {
   height: 34px;
   left: 0;
   position: absolute;
@@ -1543,12 +1543,12 @@ body {
   width: 73px;
 }
 
-.option-basic .overlap-10 {
+.main-container .overlap-10 {
   height: 34px;
   position: relative;
 }
 
-.option-basic .text-wrapper-31 {
+.main-container .text-wrapper-31 {
   color: #959cb6;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 13px;
@@ -1561,7 +1561,7 @@ body {
   width: 49px;
 }
 
-.option-basic .today-active {
+.main-container .today-active {
   height: 34px;
   left: 0;
   position: absolute;
@@ -1569,7 +1569,7 @@ body {
   width: 73px;
 }
 
-.option-basic .today-active-wrapper {
+.main-container .today-active-wrapper {
   background-color: #f3f6f9;
   border-radius: 4px;
   height: 34px;
@@ -1577,7 +1577,7 @@ body {
   width: 71px;
 }
 
-.option-basic .today-active-2 {
+.main-container .today-active-2 {
   color: #6993ff;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 13px;
@@ -1590,7 +1590,7 @@ body {
   width: 49px;
 }
 
-.option-basic .month {
+.main-container .month {
   height: 24px;
   left: 102px;
   position: absolute;
@@ -1598,7 +1598,7 @@ body {
   width: 53px;
 }
 
-.option-basic .text-wrapper-32 {
+.main-container .text-wrapper-32 {
   color: #959cb6;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 13px;
@@ -1611,7 +1611,7 @@ body {
   width: 51px;
 }
 
-.option-basic .year {
+.main-container .year {
   height: 24px;
   left: 195px;
   position: absolute;
@@ -1619,7 +1619,7 @@ body {
   width: 38px;
 }
 
-.option-basic .text-wrapper-33 {
+.main-container .text-wrapper-33 {
   color: #959cb6;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 13px;
@@ -1632,7 +1632,7 @@ body {
   width: 36px;
 }
 
-.option-basic .actions-button {
+.main-container .actions-button {
   height: 39px;
   left: 278px;
   position: absolute;
@@ -1640,7 +1640,7 @@ body {
   width: 96px;
 }
 
-.option-basic .overlap-11 {
+.main-container .overlap-11 {
   background-color: #f3f6f9;
   border-radius: 4px;
   height: 39px;
@@ -1648,7 +1648,7 @@ body {
   width: 94px;
 }
 
-.option-basic .text-wrapper-34 {
+.main-container .text-wrapper-34 {
   color: #959cbd;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 13px;
@@ -1661,7 +1661,7 @@ body {
   width: 59px;
 }
 
-.option-basic .file-plus-icon {
+.main-container .file-plus-icon {
   height: 36px;
   left: 387px;
   position: absolute;
@@ -1669,7 +1669,7 @@ body {
   width: 36px;
 }
 
-.option-basic .header {
+.main-container .header {
   background-color: #ffffff;
   height: 78px;
   left: 319px;
@@ -1678,14 +1678,14 @@ body {
   width: 1488px;
 }
 
-.option-basic .overlap-12 {
+.main-container .overlap-12 {
   height: 58px;
   position: relative;
   top: 17px;
   width: 1454px;
 }
 
-.option-basic .sep {
+.main-container .sep {
   background-color: #eeeff3;
   height: 1px;
   left: 0;
@@ -1694,7 +1694,7 @@ body {
   width: 1235px;
 }
 
-.option-basic .right-2 {
+.main-container .right-2 {
   height: 58px;
   left: 1020px;
   position: absolute;
@@ -1702,7 +1702,7 @@ body {
   width: 433px;
 }
 
-.option-basic .icons {
+.main-container .icons {
   height: 29px;
   left: 0;
   position: absolute;
@@ -1710,7 +1710,7 @@ body {
   width: 241px;
 }
 
-.option-basic .overlap-group-9 {
+.main-container .overlap-group-9 {
   height: 20px;
   left: 5px;
   position: relative;
@@ -1718,7 +1718,7 @@ body {
   width: 19px;
 }
 
-.option-basic .path-2 {
+.main-container .path-2 {
   height: 7px;
   left: 12px;
   position: absolute;
@@ -1726,7 +1726,7 @@ body {
   width: 7px;
 }
 
-.option-basic .path-3 {
+.main-container .path-3 {
   height: 17px;
   left: 0;
   position: absolute;
@@ -1734,7 +1734,7 @@ body {
   width: 17px;
 }
 
-.option-basic .compiling {
+.main-container .compiling {
   height: 29px;
   left: 53px;
   position: absolute;
@@ -1742,7 +1742,7 @@ body {
   width: 29px;
 }
 
-.option-basic .overlap-13 {
+.main-container .overlap-13 {
   height: 23px;
   left: 2px;
   position: relative;
@@ -1750,7 +1750,7 @@ body {
   width: 23px;
 }
 
-.option-basic .combined-shape-10 {
+.main-container .combined-shape-10 {
   height: 9px;
   left: 0;
   position: absolute;
@@ -1758,7 +1758,7 @@ body {
   width: 23px;
 }
 
-.option-basic .combined-shape-11 {
+.main-container .combined-shape-11 {
   height: 23px;
   left: 7px;
   position: absolute;
@@ -1766,7 +1766,7 @@ body {
   width: 9px;
 }
 
-.option-basic .equalizer {
+.main-container .equalizer {
   height: 29px;
   left: 106px;
   position: absolute;
@@ -1774,7 +1774,7 @@ body {
   width: 29px;
 }
 
-.option-basic .rectangle-copy-2 {
+.main-container .rectangle-copy-2 {
   background-color: #6993ff;
   border-radius: 2px;
   height: 19px;
@@ -1785,7 +1785,7 @@ body {
   width: 4px;
 }
 
-.option-basic .rectangle-copy-3 {
+.main-container .rectangle-copy-3 {
   background-color: #6993ff;
   border-radius: 2px;
   height: 13px;
@@ -1795,7 +1795,7 @@ body {
   width: 4px;
 }
 
-.option-basic .rectangle-copy-4 {
+.main-container .rectangle-copy-4 {
   background-color: #6993ff;
   border-radius: 2px;
   height: 11px;
@@ -1805,7 +1805,7 @@ body {
   width: 4px;
 }
 
-.option-basic .rectangle-copy-5 {
+.main-container .rectangle-copy-5 {
   background-color: #6993ff;
   border-radius: 2px;
   height: 8px;
@@ -1815,7 +1815,7 @@ body {
   width: 4px;
 }
 
-.option-basic .stockholm-icons {
+.main-container .stockholm-icons {
   height: 29px;
   left: 159px;
   position: absolute;
@@ -1823,7 +1823,7 @@ body {
   width: 29px;
 }
 
-.option-basic .layout-blocks-2 {
+.main-container .layout-blocks-2 {
   height: 29px;
   left: 212px;
   position: absolute;
@@ -1831,7 +1831,7 @@ body {
   width: 29px;
 }
 
-.option-basic .text-wrapper-35 {
+.main-container .text-wrapper-35 {
   color: #959cb6;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 11px;
@@ -1844,7 +1844,7 @@ body {
   width: 82px;
 }
 
-.option-basic .initial-icon {
+.main-container .initial-icon {
   height: 42px;
   left: 388px;
   position: absolute;
@@ -1852,7 +1852,7 @@ body {
   width: 45px;
 }
 
-.option-basic .overlap-14 {
+.main-container .overlap-14 {
   background-color: #d7f9ef;
   border-radius: 4px;
   height: 42px;
@@ -1860,7 +1860,7 @@ body {
   width: 43px;
 }
 
-.option-basic .text-wrapper-36 {
+.main-container .text-wrapper-36 {
   color: #0bb783;
   font-family: "Poppins-Regular", Helvetica;
   font-size: 17px;
@@ -1873,7 +1873,7 @@ body {
   width: 12px;
 }
 
-.option-basic .tabs-2 {
+.main-container .tabs-2 {
   height: 197px;
   left: 400px;
   position: absolute;
@@ -1881,7 +1881,7 @@ body {
   width: 1343px;
 }
 
-.option-basic .icon-text-wrapper {
+.main-container .icon-text-wrapper {
   background-color: #ffffff;
   border: 1px solid;
   border-color: #eff2f5;
@@ -1894,7 +1894,7 @@ body {
   width: 210px;
 }
 
-.option-basic .icon-text {
+.main-container .icon-text {
   height: 141px;
   left: 52px;
   position: relative;
@@ -1902,7 +1902,7 @@ body {
   width: 110px;
 }
 
-.option-basic .saas-application {
+.main-container .saas-application {
   color: #b5b5c3;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 18px;
@@ -1916,7 +1916,7 @@ body {
   width: 108px;
 }
 
-.option-basic .library {
+.main-container .library {
   height: 81px;
   left: 10px;
   position: absolute;
@@ -1924,7 +1924,7 @@ body {
   width: 84px;
 }
 
-.option-basic .combined-shape-12 {
+.main-container .combined-shape-12 {
   height: 61px;
   left: 14px;
   position: absolute;
@@ -1932,7 +1932,7 @@ body {
   width: 28px;
 }
 
-.option-basic .rectangle-copy-6 {
+.main-container .rectangle-copy-6 {
   background-color: #b5b5c3;
   border-radius: 1px;
   height: 61px;
@@ -1944,7 +1944,7 @@ body {
   width: 10px;
 }
 
-.option-basic .item-16 {
+.main-container .item-16 {
   background-color: #ffffff;
   border: 1px solid;
   border-color: #eff2f5;
@@ -1957,7 +1957,7 @@ body {
   width: 210px;
 }
 
-.option-basic .icon-text-2 {
+.main-container .icon-text-2 {
   height: 134px;
   left: 48px;
   position: relative;
@@ -1965,7 +1965,7 @@ body {
   width: 115px;
 }
 
-.option-basic .main-categories {
+.main-container .main-categories {
   color: #b5b5c3;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 20px;
@@ -1978,7 +1978,7 @@ body {
   top: 96px;
 }
 
-.option-basic .layout-blocks-3 {
+.main-container .layout-blocks-3 {
   height: 81px;
   left: 22px;
   position: absolute;
@@ -1986,7 +1986,7 @@ body {
   width: 70px;
 }
 
-.option-basic .overlap-group-10 {
+.main-container .overlap-group-10 {
   height: 54px;
   left: 12px;
   position: relative;
@@ -1994,7 +1994,7 @@ body {
   width: 47px;
 }
 
-.option-basic .rectangle-6 {
+.main-container .rectangle-6 {
   background-color: #b5b5c3;
   border-radius: 1.5px;
   height: 24px;
@@ -2004,7 +2004,7 @@ body {
   width: 21px;
 }
 
-.option-basic .combined-shape-13 {
+.main-container .combined-shape-13 {
   height: 54px;
   left: 0;
   position: absolute;
@@ -2012,7 +2012,7 @@ body {
   width: 47px;
 }
 
-.option-basic .item-17 {
+.main-container .item-17 {
   background-color: #50cd89;
   border-radius: 12px;
   height: 197px;
@@ -2023,7 +2023,7 @@ body {
   width: 210px;
 }
 
-.option-basic .icon-text-3 {
+.main-container .icon-text-3 {
   height: 149px;
   left: 55px;
   position: relative;
@@ -2031,7 +2031,7 @@ body {
   width: 109px;
 }
 
-.option-basic .video-tutorials {
+.main-container .video-tutorials {
   color: #ffffff;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 20px;
@@ -2045,7 +2045,7 @@ body {
   width: 89px;
 }
 
-.option-basic .movie-lane {
+.main-container .movie-lane {
   height: 71px;
   left: 0;
   position: absolute;
@@ -2053,7 +2053,7 @@ body {
   width: 99px;
 }
 
-.option-basic .path-wrapper {
+.main-container .path-wrapper {
   background-image: url();
   background-size: 100% 100%;
   height: 53px;
@@ -2063,7 +2063,7 @@ body {
   width: 66px;
 }
 
-.option-basic .path-4 {
+.main-container .path-4 {
   height: 16px;
   left: 27px;
   position: absolute;
@@ -2071,7 +2071,7 @@ body {
   width: 16px;
 }
 
-.option-basic .item-18 {
+.main-container .item-18 {
   background-color: #ffffff;
   border: 1px solid;
   border-color: #eff2f5;
@@ -2084,7 +2084,7 @@ body {
   width: 210px;
 }
 
-.option-basic .icon-text-4 {
+.main-container .icon-text-4 {
   height: 145px;
   left: 54px;
   position: relative;
@@ -2092,7 +2092,7 @@ body {
   width: 123px;
 }
 
-.option-basic .sales-statistics {
+.main-container .sales-statistics {
   color: #b5b5c3;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 20px;
@@ -2106,7 +2106,7 @@ body {
   width: 121px;
 }
 
-.option-basic .equalizer-2 {
+.main-container .equalizer-2 {
   height: 86px;
   left: 9px;
   position: absolute;
@@ -2114,7 +2114,7 @@ body {
   width: 84px;
 }
 
-.option-basic .rectangle-copy-7 {
+.main-container .rectangle-copy-7 {
   background-color: #b5b5c3;
   border-radius: 2px;
   height: 57px;
@@ -2125,7 +2125,7 @@ body {
   width: 10px;
 }
 
-.option-basic .rectangle-copy-8 {
+.main-container .rectangle-copy-8 {
   background-color: #b5b5c3;
   border-radius: 2px;
   height: 39px;
@@ -2135,7 +2135,7 @@ body {
   width: 10px;
 }
 
-.option-basic .rectangle-copy-9 {
+.main-container .rectangle-copy-9 {
   background-color: #b5b5c3;
   border-radius: 2px;
   height: 32px;
@@ -2145,7 +2145,7 @@ body {
   width: 10px;
 }
 
-.option-basic .rectangle-copy-10 {
+.main-container .rectangle-copy-10 {
   background-color: #b5b5c3;
   border-radius: 2px;
   height: 25px;
@@ -2155,7 +2155,7 @@ body {
   width: 10px;
 }
 
-.option-basic .item-19 {
+.main-container .item-19 {
   background-color: #ffffff;
   border: 1px solid;
   border-color: #eff2f5;
@@ -2168,7 +2168,7 @@ body {
   width: 210px;
 }
 
-.option-basic .icon-text-5 {
+.main-container .icon-text-5 {
   height: 129px;
   left: 58px;
   position: relative;
@@ -2176,7 +2176,7 @@ body {
   width: 97px;
 }
 
-.option-basic .ARC-security {
+.main-container .ARC-security {
   color: #b5b5c3;
   font-family: "Poppins-SemiBold", Helvetica;
   font-size: 20px;
@@ -2189,7 +2189,7 @@ body {
   top: 91px;
 }
 
-.option-basic .shield-check-2 {
+.main-container .shield-check-2 {
   height: 75px;
   left: 0;
   position: absolute;
@@ -2197,7 +2197,7 @@ body {
   width: 95px;
 }
 
-.option-basic .overlap-group-11 {
+.main-container .overlap-group-11 {
   background-image: url();
   background-size: 100% 100%;
   height: 64px;
@@ -2207,7 +2207,7 @@ body {
   width: 63px;
 }
 
-.option-basic .check-path-2 {
+.main-container .check-path-2 {
   height: 18px;
   left: 17px;
   position: absolute;
@@ -2215,7 +2215,7 @@ body {
   width: 30px;
 }
 
-.option-basic .widget-4 {
+.main-container .widget-4 {
   background-color: #ffffff;
   border-radius: 12px;
   height: 472px;
@@ -2225,7 +2225,7 @@ body {
   width: 1319px;
 }
 
-.option-basic .chart {
+.main-container .chart {
   height: 342px;
   left: 68px;
   position: absolute;
@@ -2233,7 +2233,7 @@ body {
   width: 1160px;
 }
 
-.option-basic .overlap-15 {
+.main-container .overlap-15 {
   height: 300px;
   left: 74px;
   position: absolute;
@@ -2241,7 +2241,7 @@ body {
   width: 1086px;
 }
 
-.option-basic .dotted-lines {
+.main-container .dotted-lines {
   height: 300px;
   left: 0;
   position: absolute;
@@ -2249,7 +2249,7 @@ body {
   width: 1086px;
 }
 
-.option-basic .line-5 {
+.main-container .line-5 {
   height: 1px;
   left: 0;
   object-fit: cover;
@@ -2258,7 +2258,7 @@ body {
   width: 1086px;
 }
 
-.option-basic .line-6 {
+.main-container .line-6 {
   height: 1px;
   left: 0;
   object-fit: cover;
@@ -2267,7 +2267,7 @@ body {
   width: 1086px;
 }
 
-.option-basic .line-7 {
+.main-container .line-7 {
   height: 1px;
   left: 0;
   object-fit: cover;
@@ -2276,7 +2276,7 @@ body {
   width: 1086px;
 }
 
-.option-basic .line-8 {
+.main-container .line-8 {
   height: 1px;
   left: 0;
   object-fit: cover;
@@ -2285,7 +2285,7 @@ body {
   width: 1086px;
 }
 
-.option-basic .line-9 {
+.main-container .line-9 {
   height: 1px;
   left: 0;
   object-fit: cover;
@@ -2294,7 +2294,7 @@ body {
   width: 1086px;
 }
 
-.option-basic .line-10 {
+.main-container .line-10 {
   height: 1px;
   left: 0;
   object-fit: cover;
@@ -2303,7 +2303,7 @@ body {
   width: 1086px;
 }
 
-.option-basic .columns {
+.main-container .columns {
   height: 287px;
   left: 76px;
   position: absolute;
@@ -2311,7 +2311,7 @@ body {
   width: 955px;
 }
 
-.option-basic .element-column {
+.main-container .element-column {
   height: 147px;
   left: 0;
   position: absolute;
@@ -2319,12 +2319,12 @@ body {
   width: 70px;
 }
 
-.option-basic .overlap-group-12 {
+.main-container .overlap-group-12 {
   height: 147px;
   position: relative;
 }
 
-.option-basic .rectangle-7 {
+.main-container .rectangle-7 {
   height: 117px;
   left: 23px;
   position: absolute;
@@ -2332,7 +2332,7 @@ body {
   width: 47px;
 }
 
-.option-basic .rectangle-8 {
+.main-container .rectangle-8 {
   background-color: #ffa800;
   border-radius: 4px;
   height: 147px;
@@ -2342,7 +2342,7 @@ body {
   width: 29px;
 }
 
-.option-basic .element-column-2 {
+.main-container .element-column-2 {
   height: 196px;
   left: 177px;
   position: absolute;
@@ -2350,12 +2350,12 @@ body {
   width: 70px;
 }
 
-.option-basic .overlap-16 {
+.main-container .overlap-16 {
   height: 196px;
   position: relative;
 }
 
-.option-basic .rectangle-9 {
+.main-container .rectangle-9 {
   height: 166px;
   left: 23px;
   position: absolute;
@@ -2363,7 +2363,7 @@ body {
   width: 47px;
 }
 
-.option-basic .rectangle-10 {
+.main-container .rectangle-10 {
   background-color: #ffa800;
   border-radius: 4px;
   height: 196px;
@@ -2373,7 +2373,7 @@ body {
   width: 29px;
 }
 
-.option-basic .element-column-3 {
+.main-container .element-column-3 {
   height: 247px;
   left: 354px;
   position: absolute;
@@ -2381,12 +2381,12 @@ body {
   width: 70px;
 }
 
-.option-basic .overlap-17 {
+.main-container .overlap-17 {
   height: 247px;
   position: relative;
 }
 
-.option-basic .rectangle-11 {
+.main-container .rectangle-11 {
   height: 217px;
   left: 23px;
   position: absolute;
@@ -2394,7 +2394,7 @@ body {
   width: 47px;
 }
 
-.option-basic .rectangle-12 {
+.main-container .rectangle-12 {
   background-color: #ffa800;
   border-radius: 4px;
   height: 247px;
@@ -2404,7 +2404,7 @@ body {
   width: 29px;
 }
 
-.option-basic .element-column-4 {
+.main-container .element-column-4 {
   height: 207px;
   left: 531px;
   position: absolute;
@@ -2412,12 +2412,12 @@ body {
   width: 70px;
 }
 
-.option-basic .overlap-18 {
+.main-container .overlap-18 {
   height: 207px;
   position: relative;
 }
 
-.option-basic .rectangle-13 {
+.main-container .rectangle-13 {
   height: 177px;
   left: 23px;
   position: absolute;
@@ -2425,7 +2425,7 @@ body {
   width: 47px;
 }
 
-.option-basic .rectangle-14 {
+.main-container .rectangle-14 {
   background-color: #ffa800;
   border-radius: 4px;
   height: 207px;
@@ -2435,7 +2435,7 @@ body {
   width: 29px;
 }
 
-.option-basic .element-column-5 {
+.main-container .element-column-5 {
   height: 238px;
   left: 708px;
   position: absolute;
@@ -2443,12 +2443,12 @@ body {
   width: 70px;
 }
 
-.option-basic .overlap-19 {
+.main-container .overlap-19 {
   height: 238px;
   position: relative;
 }
 
-.option-basic .rectangle-15 {
+.main-container .rectangle-15 {
   height: 208px;
   left: 23px;
   position: absolute;
@@ -2456,7 +2456,7 @@ body {
   width: 47px;
 }
 
-.option-basic .rectangle-16 {
+.main-container .rectangle-16 {
   background-color: #ffa800;
   border-radius: 4px;
   height: 238px;
@@ -2466,7 +2466,7 @@ body {
   width: 29px;
 }
 
-.option-basic .element-column-6 {
+.main-container .element-column-6 {
   height: 287px;
   left: 885px;
   position: absolute;
@@ -2474,12 +2474,12 @@ body {
   width: 70px;
 }
 
-.option-basic .overlap-20 {
+.main-container .overlap-20 {
   height: 287px;
   position: relative;
 }
 
-.option-basic .rectangle-17 {
+.main-container .rectangle-17 {
   height: 257px;
   left: 23px;
   position: absolute;
@@ -2487,7 +2487,7 @@ body {
   width: 47px;
 }
 
-.option-basic .rectangle-18 {
+.main-container .rectangle-18 {
   background-color: #ffa800;
   border-radius: 4px;
   height: 287px;
@@ -2497,7 +2497,7 @@ body {
   width: 29px;
 }
 
-.option-basic .x-axis {
+.main-container .x-axis {
   height: 21px;
   left: 150px;
   position: absolute;
@@ -2505,7 +2505,7 @@ body {
   width: 972px;
 }
 
-.option-basic .text-wrapper-37 {
+.main-container .text-wrapper-37 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2519,7 +2519,7 @@ body {
   width: 73px;
 }
 
-.option-basic .text-wrapper-38 {
+.main-container .text-wrapper-38 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2533,7 +2533,7 @@ body {
   width: 82px;
 }
 
-.option-basic .text-wrapper-39 {
+.main-container .text-wrapper-39 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2547,7 +2547,7 @@ body {
   width: 100px;
 }
 
-.option-basic .text-wrapper-40 {
+.main-container .text-wrapper-40 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2561,7 +2561,7 @@ body {
   width: 96px;
 }
 
-.option-basic .text-wrapper-41 {
+.main-container .text-wrapper-41 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2575,7 +2575,7 @@ body {
   width: 96px;
 }
 
-.option-basic .text-wrapper-42 {
+.main-container .text-wrapper-42 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2589,7 +2589,7 @@ body {
   width: 77px;
 }
 
-.option-basic .y-axis {
+.main-container .y-axis {
   height: 321px;
   left: 0;
   position: absolute;
@@ -2597,7 +2597,7 @@ body {
   width: 57px;
 }
 
-.option-basic .text-wrapper-43 {
+.main-container .text-wrapper-43 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2610,7 +2610,7 @@ body {
   width: 45px;
 }
 
-.option-basic .text-wrapper-44 {
+.main-container .text-wrapper-44 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2623,7 +2623,7 @@ body {
   width: 43px;
 }
 
-.option-basic .text-wrapper-45 {
+.main-container .text-wrapper-45 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2636,7 +2636,7 @@ body {
   width: 36px;
 }
 
-.option-basic .text-wrapper-46 {
+.main-container .text-wrapper-46 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2649,7 +2649,7 @@ body {
   width: 36px;
 }
 
-.option-basic .text-wrapper-47 {
+.main-container .text-wrapper-47 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2662,7 +2662,7 @@ body {
   width: 34px;
 }
 
-.option-basic .text-wrapper-48 {
+.main-container .text-wrapper-48 {
   color: #b5b5c3;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
@@ -2675,7 +2675,7 @@ body {
   width: 18px;
 }
 
-.option-basic .top-2 {
+.main-container .top-2 {
   height: 50px;
   left: 29px;
   position: absolute;
@@ -2683,7 +2683,7 @@ body {
   width: 1264px;
 }
 
-.option-basic .tabs-3 {
+.main-container .tabs-3 {
   height: 34px;
   left: 1090px;
   position: absolute;
@@ -2691,7 +2691,7 @@ body {
   width: 176px;
 }
 
-.option-basic .overlap-group-13 {
+.main-container .overlap-group-13 {
   background-color: #464e5f;
   border-radius: 12px;
   height: 34px;
@@ -2701,7 +2701,7 @@ body {
   width: 53px;
 }
 
-.option-basic .text-wrapper-49 {
+.main-container .text-wrapper-49 {
   color: #80808f;
   font-family: "Poppins-Medium", Helvetica;
   font-size: 12px;
